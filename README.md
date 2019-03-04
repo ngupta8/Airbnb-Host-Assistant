@@ -27,6 +27,7 @@ To reduce the number of terms and focus on the most important per document, non-
 1. Latent Dirichlet Allocation (LDA)
 2. Latent Semantic Analysis (LSA) 
 3. Non-negative Matrix Factorization (NMF)
+4. K Clustring
 
 ## Training Machine Learning Models 
 1. Linear Regression Model
