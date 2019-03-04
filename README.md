@@ -29,9 +29,9 @@ To reduce the number of terms and focus on the most important per document, non-
 3. Non-negative Matrix Factorization 
 
 ## Training Machine Learning Models 
-Linear Regression
-Decison Tree
-Random Forest
+1. Linear Regression
+2. Decison Tree
+3. Random Forest
 
 ## Score Table
 | Model       | R2 Score        | RMSE  |
