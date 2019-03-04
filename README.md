@@ -24,21 +24,21 @@ I am foscusing on San Francisco city in United States so I used the detailed lis
 I  have a processed dataset and an understanding of what we are trying to predict, I focus on converting the description text into useful features for the machine learning model.
 To reduce the number of terms and focus on the most important per document, non-english and stop words are removed. Words are also lemmatised and a RegEx tokeniser is used to ignore non-alphanumeric strings. The remaining words are then converted into a bag-of-words representation (a list of word_id, word_frequency 2-tuples) for the Document-Term-Matrix.
 ## Topic Modeling
-1. Latent Dirichlet Allocation (LDA
-2. Latent Semantic Analysis
-3. Non-negative Matrix Factorization 
+1. Latent Dirichlet Allocation (LDA)
+2. Latent Semantic Analysis (LSA) 
+3. Non-negative Matrix Factorization (NMF)
 
 ## Training Machine Learning Models 
-1. Linear Regression
-2. Decison Tree
-3. Random Forest
+1. Linear Regression Model
+2. Decison Tree Model
+3. Random Forest Model
 
 ## Score Table
 | Model       | R2 Score        | RMSE  |
 | ------------- |:-------------:| -----:|
 | Logistic Regression    | 0.33 | 53167.27030 |
 | Decision Tree      | 0.18      |   58631.09619 |
-| Random Forest | are neat      |    $1 |
+| Random Forest | 0.47     |    47070.98550 |
 
 ```
 
