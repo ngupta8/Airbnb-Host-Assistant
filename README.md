@@ -16,7 +16,7 @@ This project is about helping Airbnb host to estimate revenue for their listing 
 While these are key elements of the listing. This project focuses on evaluating the list descriptionalong with few categorical values like roomtype,housetype to estimate revenue a host can make.
 
 ## DataSet
-I use the dataset provided by Inside Airbnb, where publicly available information about a city’s Airbnb’s listings have been scraped and released for independent, non-commercial use. This includes detailed listing information such as no. of rooms, location, text description, price.
+I used the dataset provided by Inside Airbnb(http://insideairbnb.com/get-the-data.html), where publicly available information about a city’s Airbnb’s listings have been scraped and released for independent, non-commercial use. This includes detailed listing information such as no. of rooms, location, text description, price.
 I am foscusing on San Francisco city in United States so I used the detailed listings information for SF listings active from December 2017 to December 2018. After data cleaning, the dataset has 9722 rows and 16 columns.
 
 ## Text Processing
