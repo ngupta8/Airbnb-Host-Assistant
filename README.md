@@ -16,13 +16,13 @@ This project is about helping Airbnb host to estimate revenue for their listing 
 While these are key elements of the listing. This project focuses on evaluating the list descriptionalong with few categorical values like roomtype,housetype to estimate revenue a host can make.
 
 ## DataSet
-[Kaggle:facebook-recruiting-iv-human-or-bot/data](https://www.kaggle.com/c/facebook-recruiting-iv-human-or-bot/data)
 I use the dataset provided by Inside Airbnb, where publicly available information about a city’s Airbnb’s listings have been scraped and released for independent, non-commercial use. This includes detailed listing information such as no. of rooms, location, text description, price.
 I am foscusing on San Francisco city in United States so I used the detailed listings information for SF listings active from December 2017 to December 2018. After data cleaning, the dataset has 9722 rows and 16 columns.
 
 ## Text Processing
 I  have a processed dataset and an understanding of what we are trying to predict, I focus on converting the description text into useful features for the machine learning model.
 To reduce the number of terms and focus on the most important per document, non-english and stop words are removed. Words are also lemmatised and a RegEx tokeniser is used to ignore non-alphanumeric strings. The remaining words are then converted into a bag-of-words representation (a list of word_id, word_frequency 2-tuples) for the Document-Term-Matrix.
+
 ## Topic Modeling
 1. Latent Dirichlet Allocation (LDA)
 2. Latent Semantic Analysis (LSA) 
